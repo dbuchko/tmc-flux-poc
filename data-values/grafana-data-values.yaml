@@ -5,10 +5,12 @@ grafana:
     # base64 encoded, VMware1!
     admin_password: "Vk13YXJlMSE="
   pvc:
-    storageClassName: <ADD>
+    # Add storage class here
+    storageClassName: vc01cl01-t0compute
 ingress:
   enabled: true
-  virtual_host_fqdn: <UPDATE>"grafana.system.tanzu"
+  # Set the FQDN - make entry in DNS provider
+  virtual_host_fqdn: "grafana.tkgs.tanzu-studio.com"
   prefix: "/"
   servicePort: 80
 
