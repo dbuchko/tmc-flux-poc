@@ -2,12 +2,13 @@
 grafana:
   secret:
     type: "Opaque"
+    # base64 encoded, VMware1!
     admin_password: "Vk13YXJlMSE="
   pvc:
-    storageClassName:
+    storageClassName: <ADD>
 ingress:
   enabled: true
-  virtual_host_fqdn: "grafana.system.tanzu"
+  virtual_host_fqdn: <UPDATE>"grafana.system.tanzu"
   prefix: "/"
   servicePort: 80
 
