@@ -8,7 +8,9 @@ ingress:
   alertmanagerServicePort: 80
 prometheus:
   pvc:
-    storageClassName:
+    ### Enter storage class
+    storageClassName: vc01cl01-t0compute
 alertmanager:
   pvc:
-    storageClassName:
+    ### Enter storage class
+    storageClassName: vc01cl01-t0compute
