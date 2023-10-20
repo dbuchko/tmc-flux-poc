@@ -4,7 +4,8 @@ grafana:
     type: "Opaque"
     admin_password: "Vk13YXJlMSE="
   pvc:
-    storageClassName:
+    ### Add storage class
+    storageClassName: vc01cl01-t0compute
 ingress:
   enabled: true
   ### Add FQDN
