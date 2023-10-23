@@ -9,12 +9,3 @@ images:
 - name: quay.io/argoproj/argocd
   newName: ghcr.io/argoproj/argo-cd/argocd
   newTag: 2.9.0-973565e1
-secretGenerator:
-- name: argocd-packages-values
-  namespace: packages
-  files:
-  - argocd.yaml
-  type: Opaque
-  options:
-    annotations:
-      tkg.tanzu.vmware.com/tanzu-package: argocd-packages
