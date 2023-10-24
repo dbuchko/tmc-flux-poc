@@ -7,6 +7,5 @@ resources:
 - tanzu-packages-grafana.yaml
 #- tanzu-packages-harbor.yaml
 - tanzu-packages-prometheus.yaml
-- tanzu-packages-argocd.yaml
 
 
