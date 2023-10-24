@@ -8,4 +8,3 @@ resources:
 - tanzu-packages-grafana-sa.yaml
 #- tanzu-packages-harbor-sa.yaml
 - tanzu-packages-prometheus-sa.yaml
-- tanzu-packages-argocd-sa.yaml
