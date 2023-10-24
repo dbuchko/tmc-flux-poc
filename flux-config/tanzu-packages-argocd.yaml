@@ -6,7 +6,7 @@ metadata:
   namespace: tanzu-continuousdelivery-resources
 spec:
   dependsOn:
-    - name: tanzu-packages-argocd
+    - name: tanzu-packages-argocd-sa
   interval: 1m0s
   path: ./argocd
   prune: true
