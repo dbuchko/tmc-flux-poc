@@ -1,5 +1,5 @@
 ---
-argocd-server:
+server:
   insecure: true
   ingress:
     enabled: true
